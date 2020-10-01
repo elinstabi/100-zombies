@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="house" unicode="&#xe840;" d="M475 700l-475-275 100 0 0-400c0-25 22-50 50-50l150 0 0 250c0 28 22 50 50 50l350 0c28 0 49-22 50-50l0-250 150 0c28 0 50 22 50 50l0 400 100 0-475 275c-21 12-42 25-50 25-8 0-28-12-50-25z m-125-475l0-50 350 0 0 50z m0-100l0-50 350 0 0 50z m0-100l0-50 350 0 0 50z" horiz-adv-x="1050" />
+</font>
+</defs>
+</svg>

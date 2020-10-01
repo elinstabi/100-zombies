@@ -1,0 +1,80 @@
+html {
+    font-size:16px;
+    font-family: 'Verdana', sans-serif;;
+}
+.main {
+    margin: 0 auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    height:80vh;
+}
+.houses {
+    display:flex;
+    justify-content:space-around;
+}
+.icon {
+    color:#607665;
+}
+.zombyfied {
+    color:#b16a6a;
+}
+.footer {
+    text-align:center;
+}
+.btn {
+    border:2px solid #607665;
+    border-radius:0.4rem;
+    outline:none;
+    background:transparent;
+    color:#607665;
+    font-size: 1.2rem;
+    margin-top:1rem;
+    padding:0.3rem;
+    cursor:pointer;
+}
+.btn:hover {
+    background:#607665;
+    color:#fff;
+}
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?42738323');
+    src: url('../font/fontello.eot?42738323#iefix') format('embedded-opentype'),
+        url('../font/fontello.woff2?42738323') format('woff2'),
+        url('../font/fontello.woff?42738323') format('woff'),
+        url('../font/fontello.ttf?42738323') format('truetype'),
+        url('../font/fontello.svg?42738323#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?42738323#fontello') format('svg');
+  }
+}
+*/
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-size: 2rem;
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+ 
+.icon-house:before { content: '\e840'; } /* '' */
